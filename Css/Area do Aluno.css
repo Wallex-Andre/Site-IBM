@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#Titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: "Hammersmith One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#banner {
+    height: 280px;
+    width: 1254px;
+}
+
+#blocos , #Imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blocos {
+    margin-top: 2rem;
+}
+
+#blocos2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+#bloco{
+    width: 540px;
+    height: 280px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 20px #000000;
+    border-radius: 30px;
+    display: flex;
+}
+
+.b1{
+    margin-right: 8rem;
+    display: flex;
+}
+
+#Imagem {
+    border-radius: 100px;
+    width: 120px;
+    height: 120px;
+    margin-top: 2rem;
+    justify-content: left;
+    margin-left: 2rem;
+}
+
+.title {
+    font-size: 45px;
+    margin-top: 4.5rem;
+    justify-content: center;
+    display: flex;
+    margin-left: 2rem;
+    font-family: "Hammersmith One", serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 56px;
+}
+
+.t2 {
+    width: 340px;
+    margin-left: 0;
+}
+
+.bloco-p {
+    width: 452px;
+    height: 68px;
+    margin-top: 11rem;
+    margin-left:-20rem;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.p2 {
+    margin-left: -452px;
+}
+
+.p4 {
+    margin-left: -422px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
