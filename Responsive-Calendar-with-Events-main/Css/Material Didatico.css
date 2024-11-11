@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#topbar {
+    background-color: #93221f;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.toptext {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.topbutton {
+    background-color: #93221f;
+    border: none;
+    margin-left: 4rem ;
+}
+
+#m-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#linha-vermelha {
+    background-color: #93221f;
+    width: 112px;
+    height: 5px;
+    transform: rotate(90deg);
+}
+
+.login-texto {
+    font-size: 30px;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2rem;
+}
+
+#login-1 {
+    width: 500px;
+    height: 112px;
+}
+
+#login-2 {
+    width: 462px;
+    height: 112px;
+}

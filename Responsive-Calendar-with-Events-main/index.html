@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Stay organized with our user-friendly Calendar featuring events, reminders, and a customizable interface. Built with HTML, CSS, and JavaScript. Start scheduling today!"
+    />
+    <meta
+      name="keywords"
+      content="calendar, events, reminders, javascript, html, css, open source coding"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+      </style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Css/Nav-Bar Aluno.css" />
+    <title>Agenda On-line</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="mobile-menu" id="open_side">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <section id="sidebar">
+              <div id="sidebar_content">
+                  <div id="user">
+                      <img src="Imagens/perfil-foto.png" id="user_avatar" alt="Avatar">
+                  </div>
+                  <div id="name-div">
+                  <p id="user_items">Carolina Martins Santos</p>
+                  </div>
+                  <ul id="side_items">
+                      <li class="side-item active">
+                          <a href="Área do Aluno.html">
+                              <i class="fa-solid fa-house"></i>
+                              <span class="item-description">
+                                  Início
+                              </span>
+                          </a>
+                      </li>
+          
+                      <li class="side-item">
+                          <a href="Alertas Disciplinas.html">
+                              <i class="fa-solid fa-chalkboard-user"></i>
+                              <span class="item-description">
+                                  Maestro
+                              </span>
+                          </a>
+                      </li>
+      
+                      <li class="side-item">
+                          <a href="Aulas Digitais.html">
+                              <i class="fa-solid fa-desktop"></i>
+                              <span class="item-description">
+                                  Aulas digítais
+                              </span>
+                          </a>
+                      </li>
+      
+                      <li class="side-item">
+                          <a href="Material Didático.html">
+                              <i class="fa-solid fa-file-lines"></i>
+                              <span class="item-description">
+                                  Material
+                              </span>
+                          </a>
+                      </li>
+          
+                      <li class="side-item">
+                          <a href="#">
+                              <i class="fa-solid fa-bell"></i>
+                              <span class="item-description">
+                                  Comunicações
+                              </span>
+                          </a>
+                      </li>
+          
+                      <li class="side-item">
+                          <a href="#">
+                              <i class="fa-solid fa-calendar-days"></i>
+                              <span class="item-description">
+                                  Agenda On-line
+                              </span>
+                          </a>
+                      </li>
+          
+                      <li class="side-item">
+                          <a href="Dúvidas.html">
+                              <i class="fa-regular fa-circle-question" style="color: #ffffff;"></i>
+                              <span class="item-description">
+                                  Ajuda
+                              </span>
+                          </a>
+                      </li>
+          
+                      <li class="side-item">
+                          <a href="#">
+                              <i class="fa-solid fa-gear"></i>
+                              <span class="item-description">
+                                  Configurações
+                              </span>
+                          </a>
+                      </li>
+                      <div id="logout">
+                          <button id="logout_btn">
+                              <i class="fa-sharp fa-solid fa-turn-down"></i>
+                              <span class="item-description">
+                                  Sair
+                              </span>
+                          </button>
+                      </div>
+                  </ul>
+              </div>
+      </section>
+            </ul>
+            <a class="logo" href="index.html"><img src="Imagens/Logo.png" alt="Logo" class="logo_img"></a>
+            <a class="logo" href="index.html"><img src="Imagens/Logo-Aluno.png" alt="Logo" class="logo_img_branco"></a>
+            <a class="conta" href="Login.html"><img src="Imagens/user.png" alt="conta" class="conta_img"></a>
+            <a class="conta" href="Login.html"><img src="Imagens/user-branco.png" alt="conta" class="conta_img_branco"></a>
+      </nav>
+    </header>
+    <main>
+      <div id="topbar">
+          <button class="topbutton"><h1 id="Material-didatico" class="toptext">Material Didatico</h1></button>
+      </div>
+      <div id="m-login">
+          <h1 id="login-1" class="login-texto">Utilize o Calendario de eventos
+            para poder se organizar</h1>
+          <div id="linha-vermelha"></div>
+          <h1 id="login-2" class="login-texto">Organize-se tanto nos estudos
+            quanto em tarefas diárias</h1>
+      </div>
+
+  </main>
+    <div class="container">
+      <div class="left">
+        <div class="calendar">
+          <div class="month">
+            <i class="fas fa-angle-left prev"></i>
+            <div class="date">dezembro 2015</div>
+            <i class="fas fa-angle-right next"></i>
+          </div>
+          <div class="weekdays">
+            <div>Domingo</div>
+            <div>Segunda</div>
+            <div>Terça</div>
+            <div>Quarta</div>
+            <div>Quinta</div>
+            <div>Sexta</div>
+            <div>Sábado</div>
+          </div>
+          <div class="days"></div>
+          <div class="goto-today">
+            <div class="goto">
+              <input type="text" placeholder="mm/yyyy" class="date-input" />
+              <button class="goto-btn">Go</button>
+            </div>
+            <button class="today-btn">Hoje</button>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="today-date">
+          <div class="event-day">quarta</div>
+          <div class="event-date">12th december 2022</div>
+        </div>
+        <div class="events"></div>
+        <div class="add-event-wrapper">
+          <div class="add-event-header">
+            <div class="title">Adicionar Evento</div>
+            <i class="fas fa-times close"></i>
+          </div>
+          <div class="add-event-body">
+            <div class="add-event-input">
+              <input type="text" placeholder="Nome do Evento" class="event-name" />
+            </div>
+            <div class="add-event-input">
+              <input
+                type="text"
+                placeholder="Hora do evento a partir de"
+                class="event-time-from"
+              />
+            </div>
+            <div class="add-event-input">
+              <input
+                type="text"
+                placeholder="Hora do evento até"
+                class="event-time-to"
+              />
+            </div>
+          </div>
+          <div class="add-event-footer">
+            <button class="add-event-btn">Adicionar Evento</button>
+          </div>
+        </div>
+      </div>
+      <button class="add-event">
+        <i class="fas fa-plus"></i>
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
